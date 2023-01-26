@@ -123,8 +123,6 @@ h2 {
 }
 
 .home-title {
-	/* url('./images/titlePic-editweb.jpg') center no-repeat; */
-	/* background-size: cover; */
 	opacity: 0.99;
 	position: relative;
 	overflow: hidden;
@@ -139,20 +137,6 @@ h2 {
 	margin-top: auto;
 	margin-bottom: auto;
 	opacity: 0.77;
-}
-
-.home-programs {
-	background:
-    linear-gradient(
-		to bottom,
-		rgba(0, 0, 0, 0.45),
-		rgba(0, 0, 0, 0.45),
-		rgba(0, 0, 0, 0.00),
-		rgba(0, 0, 0, 0.00)
-    ),
-	url('./images/beginners4-editweb.jpg') center no-repeat;
-	background-size: cover;
-	height: 500px;
 }
 
 .hot-pink {
@@ -328,7 +312,7 @@ h2 {
 	overflow:scroll !important;
 }
 
-.programs-title {
+/* .programs-title {
 	background:
     linear-gradient(
       rgba(0, 0, 0, 0.45),
@@ -336,7 +320,7 @@ h2 {
     ),
 	url('./images/elite4-editweb.jpg') center no-repeat;
 	background-size: cover;
-}
+} */
 
 .rankings-section {
 	overflow:scroll !important;

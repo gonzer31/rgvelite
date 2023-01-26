@@ -13,7 +13,7 @@
 		    					<span className="v-mid">Home</span>
 			    			</h2>
 		    			</Link>
-		    	    	<Link to={"/about-us"}  onClick={() => this.hideDrawer()} className="no-underline"> 
+		    	    	<Link to={"/about-us"}  onClick={() => this.hideDrawer()} className="no-underline">
 			    	    	<h2 className="ph3 tl w-100 f3 fw4 prim-text bg-animate hover-bg-white-80">
 								<i className="material-icons dib v-mid pr4">info</i>
 		    					<span className="v-mid">About Us</span>
@@ -27,7 +27,7 @@
 				    	</Link>
 				    </div>
 		            <div className="pv1 bb b--black-10">
-		            	<Link to={"/tournaments"} onClick={() => this.hideDrawer()} className="no-underline">
+		            	{/* <Link to={"/tournaments"} onClick={() => this.hideDrawer()} className="no-underline">
 			            	<h2 className="ph3 tl w-100 f3 fw4 prim-text bg-animate hover-bg-white-80">
 								<i className="fa fa-trophy dib v-mid pr4"></i>
 		    					<span className="v-mid">Tournaments</span>
@@ -38,7 +38,7 @@
 								<i className="material-icons dib v-mid pr4">trending_up</i>
 		    					<span className="v-mid">Rankings</span>
 						    </h2>
-						</Link>
+						</Link> */}
 		            	<Link to={"/strategies"}     onClick={() => this.hideDrawer()} className="no-underline">
 			            	<h2 className="ph3 tl w-100 f3 fw4 prim-text bg-animate hover-bg-white-80">
 								<i className="material-icons dib v-mid pr4">lightbulb_outline</i>

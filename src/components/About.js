@@ -1,9 +1,9 @@
-import React from 'react';
+import panchoPic from '../images/contact-pancho-editweb.jpg'
+import danielPic from '../images/contact-daniel-editweb.jpg'
 
-export class About extends React.Component {
-	render() {
-	    return (
-	    	<div className="about-section">
+export default function About() {
+	return (
+		<div className="about-section">
 	    		<div className="about-rgvelite bg-white">
 					<div className="about-rgvelite-overlay ph7-l ph6-m ph4 pb4">
 						<h1 className="db f1 lh-solid tc fw3 pa0 prim-text">About Us</h1>
@@ -29,7 +29,7 @@ export class About extends React.Component {
 
 		    	<div className="about-pancho cf ph4 pb5 pl7-l ph6-m">
 		    		<div className="">
-						<img src={"../images/contact-pancho-editweb.jpg"} className="fl w-100 w-40-l" />
+						<img src={panchoPic} className="fl w-100 w-40-l" />
 					</div>
 					<div className="about-pancho-text fl w-100 w-60-l">
 						<article className="cf">
@@ -54,11 +54,6 @@ export class About extends React.Component {
 										<i className="material-icons dib v-mid email-icon-color pr2">mail</i>lepanche@hotmail.com
 									</h2>
 								</a>
-								<a href="https://twitter.com/lepanchie" target="_blank">
-									<h2 className="dib f4 fw3 pr3 w-100 mb0 sec-text underline hover-orange-custom">
-										<i className="fa fa-twitter dib v-mid blue pr2" aria-hidden="true"></i>@lepanchie
-									</h2>
-								</a>
 						      </div>
 						    </div>
 						  </div>
@@ -66,7 +61,7 @@ export class About extends React.Component {
 					</div>
 				</div>
 				<div className="about-daniel cf ph4 pb5 pl7-l ph6-m">
-					<img src={"../images/contact-daniel-editweb.jpg"} className="fl w-100 w-40-l" />
+					<img src={danielPic} className="fl w-100 w-40-l" />
 					<div className="about-daniel-text fl w-100 w-60-l">
 						<article className="cf">
 						  <div className="pv2 ph3-l ph0 fl w-100">
@@ -97,6 +92,5 @@ export class About extends React.Component {
 					</div>
 				</div>
 			</div>
-		);
-	}
+	)
 }

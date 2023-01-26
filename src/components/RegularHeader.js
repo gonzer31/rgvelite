@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 export class Header extends React.Component {
 	render() {
@@ -19,9 +19,9 @@ export class Header extends React.Component {
 					<Link to={"/"}   className="mdl-navigation__link">Home</Link>
 					<Link to={"/about-us"}     className="mdl-navigation__link">About Us</Link>
 			      	<Link to={"/programs"}   className="mdl-navigation__link">Programs</Link>
-							{/* <Link to={"/summer-camp"}   className="mdl-navigation__link">Summer Camp</Link> */}
-			        <Link to={"/tournaments"} className="mdl-navigation__link">Tournaments</Link>
-					<Link to={"/rankings"}    className="mdl-navigation__link">Rankings</Link>
+					{/* <Link to={"/summer-camp"}   className="mdl-navigation__link">Summer Camp</Link> */}
+			        {/* <Link to={"/tournaments"} className="mdl-navigation__link">Tournaments</Link> */}
+					{/* <Link to={"/rankings"}    className="mdl-navigation__link">Rankings</Link> */}
 					<Link to={"/strategies"}    className="mdl-navigation__link">Strategies</Link>
 			        <Link to={"/gallery"}     className="mdl-navigation__link">Gallery</Link>
 			      </nav>
