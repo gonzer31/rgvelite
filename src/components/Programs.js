@@ -104,11 +104,13 @@ export default function Programs() {
 					<h1 className="f6-small f5 f4-ns mv0 sec-text">2 days a week:</h1>
 					<h1 className="f6-small f5 f4-ns mv0 sec-text">3 days a week:</h1>
 					<h1 className="f6-small f5 f4-ns mv0 sec-text">4 days a week:</h1>
+					<h1 className="f6-small f5 f4-ns mv0 sec-text pt2">1 drop-in class:</h1>
 				  </div>
 				  <div className="dtc center">
 					<h1 className="f6-small f5 f4-ns mv0 tr sec-text">$140 per month</h1>
 					<h1 className="f6-small f5 f4-ns mv0 tr sec-text">$160 per month</h1>
 					<h1 className="f6-small f5 f4-ns mv0 tr sec-text">$180 per month</h1>
+					<h1 className="f6-small f5 f4-ns mv0 tr sec-text pt2">$40</h1>
 				  </div>
 				</div>
 			  </div>
@@ -152,11 +154,13 @@ export default function Programs() {
 					<h1 className="f6-small f5 f4-ns mv0 sec-text">2 days a week:</h1>
 					<h1 className="f6-small f5 f4-ns mv0 sec-text">3 days a week:</h1>
 					<h1 className="f6-small f5 f4-ns mv0 sec-text">4 days a week:</h1>
+					<h1 className="f6-small f5 f4-ns mv0 sec-text pt2">1 drop-in class:</h1>
 				  </div>
 				  <div className="dtc center">
 					<h1 className="f6-small f5 f4-ns mv0 tr sec-text">$200 per month</h1>
 					<h1 className="f6-small f5 f4-ns mv0 tr sec-text">$220 per month</h1>
 					<h1 className="f6-small f5 f4-ns mv0 tr sec-text">$240 per month</h1>
+					<h1 className="f6-small f5 f4-ns mv0 tr sec-text pt2">$40</h1>
 				  </div>
 				</div>
 				  </div>
